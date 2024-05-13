@@ -7,103 +7,103 @@ function App() {
     const [language, setLanguage] = useState('ENG');
     const programmingLanguageList = [
         {
-            image: "../src/assets/c-sharp.svg",
+            image: "assets/c-sharp.svg",
             name: "C#"
         },
         {
-            image: "../src/assets/javascript.svg",
+            image: "assets/javascript.svg",
             name: "Javascript"
         },
         {
-            image: "../src/assets/typescript-icon.svg",
+            image: "assets/typescript-icon.svg",
             name: "Typescript"
         },
         {
-            image: "../src/assets/python.svg",
+            image: "assets/python.svg",
             name: "Python"
         }
     ];
 
     const backendTechnologiesList = [
         {
-            image: "../src/assets/dotnet.svg",
+            image: "assets/dotnet.svg",
             name: ".NET"
         },
         {
-            image: "../src/assets/nodejs-icon.svg",
+            image: "assets/nodejs-icon.svg",
             name: "NodeJS"
         },
         {
-            image: "../src/assets/nestjs.svg",
+            image: "assets/nestjs.svg",
             name: "NestJS"
         },
         {
-            image: "../src/assets/graphql.svg",
+            image: "assets/graphql.svg",
             name: "GraphQL"
         },
         {
-            image: "../src/assets/postgresql.svg",
+            image: "assets/postgresql.svg",
             name: "PostgreSQL"
         }
     ];
 
     const frontendTechnologiesList = [
         {
-            image: "../src/assets/html-5.svg",
+            image: "assets/html-5.svg",
             name: "HTML5"
         },
         {
-            image: "../src/assets/css-3.svg",
+            image: "assets/css-3.svg",
             name: "CSS3"
         },
         {
-            image: "../src/assets/react.svg",
+            image: "assets/react.svg",
             name: "React"
         },
         {
-            image: "../src/assets/bootstrap.svg",
+            image: "assets/bootstrap.svg",
             name: "Bootstrap"
         },
         {
-            image: "../src/assets/figma.svg",
+            image: "assets/figma.svg",
             name: "Figma"
         }
     ];
 
     const toolsList = [
         {
-            image: "../src/assets/git-icon.svg",
+            image: "assets/git-icon.svg",
             name: "GIT"
         },
         {
-            image: "../src/assets/visual-studio-code.svg",
+            image: "assets/visual-studio-code.svg",
             name: "Visual Studio Code"
         },
         {
-            image: "../src/assets/visual-studio.svg",
+            image: "assets/visual-studio.svg",
             name: "Visual Studio"
         },
         {
-            image: "../src/assets/pycharm.svg",
+            image: "assets/pycharm.svg",
             name: "PyCharm"
         },
         {
-            image: "../src/assets/scrum.svg",
+            image: "assets/scrum.svg",
             name: "SCRUM"
         }
     ];
 
     const languagesList = [
         {
-            image: "../src/assets/ar.svg",
+            image: "assets/ar.svg",
             name: language === 'ENG' ? "Spanish (Native)" : "Español (Nativo)"
         },
         {
-            image: "../src/assets/gb.svg",
+            image: "assets/gb.svg",
             name: language === 'ENG' ? "English (B2)" : "Inglés (B2)"
         },
         {
-            image: "../src/assets/de.svg",
+            image: "assets/de.svg",
             name: language === 'ENG' ? "German (A1)" : "Alemán (A1)"
         }
     ];
@@ -111,7 +111,7 @@ function App() {
     const projects = [
         {
             name: "AReNe (Asociación de Rehabilitación Neurológica)",
-            image: "../src/assets/logo-arene-brand.svg",
+            image: "assets/logo-arene-brand.svg",
             description: language === 'ENG' ? `I participated in the development of an information system for AreNe that allows the organization
                 to manage its patients, workers, areas, shifts and medical history.I carried out information gathering
                 tasks for the subsequent system analysis and design and development tasks.` :
@@ -146,7 +146,7 @@ function App() {
         },
         {
             name: language === 'ENG' ? "Research Group in Operations Management and Logistics" : "Grupo de Investigación en Gestión de Operaciones y Logística",
-            image: "../src/assets/logo-utn.png",
+            image: "assets/logo-utn.png",
             description: language === 'ENG' ? `I participated in the development of a project in collaboration with the company Pecarí Implementos,
                 where we created a simulation model to optimize the production process of vibratory compactors.`:
                 `Participé del desarrollo de un proyecto en colaboración con la empresa Pecarí Implementos,
@@ -217,7 +217,7 @@ function App() {
 
             <section id="about">
                 <div className="about-content">
-                    <img src="../src/assets/Profile-NoBackground.png" alt="Profile picture" />
+                    <img src="assets/Profile-NoBackground.png" alt="Profile picture" />
                     {
                         language === 'ENG' ? (
                             <div className="about-text">
