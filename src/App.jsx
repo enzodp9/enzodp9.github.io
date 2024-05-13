@@ -245,7 +245,7 @@ function App() {
                                             <i className="fa-brands fa-linkedin"></i> LinkedIn
                                         </button>
                                     </a>
-                                    <a href="./assets/CV.pdf" target="_blank">
+                                    <a href="/assets/[ENG]CV-EnzoPrediger.pdf" target="_blank">
                                         <button className="about-btn">
                                             <i className="fa-solid fa-file-arrow-down"></i> Download CV
                                         </button>
@@ -282,7 +282,7 @@ function App() {
                                                 <i className="fa-brands fa-linkedin"></i> LinkedIn
                                             </button>
                                         </a>
-                                        <a href="./assets/CV.pdf" target="_blank">
+                                        <a href="/assets/[ESP]CV-EnzoPrediger.pdf" target="_blank">
                                             <button className="about-btn">
                                                 <i className="fa-solid fa-file-arrow-down"></i> Descargar CV
                                             </button>
