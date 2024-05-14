@@ -119,18 +119,23 @@ function App() {
                 organización realizar una gestión de sus pacientes, trabajadores, áreas, turnos e 
                 historial clínico. Realicé tareas de relevamiento de información para el posterior 
                 análisis y diseño del sistema y tareas de desarrollo`,
-            technologies: [{
-                tech: "React",
-                color: "#3998b6"
-            },
-            {
-                tech: "NestJS",
-                color: "#ea2864"
-            },
-            {
-                tech: "GraphQL",
-                color: "#f6009b"
-            }],
+            technologies: [
+                {
+                    tech: "FullStack",
+                    color: "#0d1117"
+                },
+                {
+                    tech: "React",
+                    color: "#3998b6"
+                },
+                {
+                    tech: "NestJS",
+                    color: "#ea2864"
+                },
+                {
+                    tech: "GraphQL",
+                    color: "#f6009b"
+                }],
             links: [
                 {
                     href: "https://arene.vercel.app/",
@@ -163,7 +168,128 @@ function App() {
                 {
                     href: "https://www.instagram.com/giol_utnfrcu/",
                     icon: "fa-brands fa-instagram",
-                    text: "View Research Group",
+                    text: language === 'ENG' ? "View Research Group" : "Ver Grupo",
+                }
+            ]
+        },
+        {
+            name: language === 'ENG' ? "Encryptor" : "Encriptador",
+            image: "assets/encryptor-preview.png",
+            description: language === 'ENG' ? `A web page based on the Oracle ONE challenge, with a .NET backend modified to allow the choice of encryption algorithm.` :
+                `Una página web basada en el desafío de Oracle ONE, con un backend .NET modificado para permitir la elección del algoritmo de cifrado.`,
+            technologies: [{
+                tech: "FullStack",
+                color: "#0d1117"
+            },
+            {
+                tech: ".NET",
+                color: "#03a952"
+            },
+            {
+                tech: "React",
+                color: "#3998b6"
+            }],
+            links: [
+                {
+                    href: "https://github.com/enzodp9/Encryptor",
+                    icon: "fa-brands fa-github",
+                    text: language === 'ENG' ? "View Code" : "Ver Código",
+                }
+            ]
+        },
+        {
+            name: "Hotel API",
+            image: "assets/hotel-preview.jpg",
+            description: language === 'ENG' ? `This ASP.NET API is part of the backend for a hotel management software. It provides the necessary
+                    functionalities for the administration of various key entities within the system, including users, guests and bookings.`:
+                `Esta API de ASP.NET es parte del backend de un software de gestión hotelera. Proporciona las funcionalidades necesarias para
+                la administración de diversas entidades clave dentro del sistema, incluidos usuarios, invitados y reservas.`,
+            technologies: [{
+                tech: "Backend",
+                color: "#2d3e50"
+            },
+            {
+                tech: ".NET",
+                color: "#03a952"
+            },
+            {
+                tech: "EF Core",
+                color: "#94d5f5"
+            },
+            {
+                tech: "PostgreSQL",
+                color: "#316192"
+            }],
+            links: [
+                {
+                    href: "https://github.com/enzodp9/Hotel",
+                    icon: "fa-brands fa-github",
+                    text: language === 'ENG' ? "View Code" : "Ver Código",
+                }
+            ]
+        },
+        {
+            name: "eCommerce AluraGeek",
+            image: "assets/ecommerce-preview.png",
+            description: language === 'ENG' ? `This project is an eCommerce website called AluraGeek, developed as part of the Oracle ONE course.
+                The site allows users to see the products and add them to the cart.`:
+                `Es un eCommerce llamado AluraGeek, desarrollado como parte del curso Oracle ONE. El sitio permite a los usuarios ver los productos y agregarlos al carrito de compras.`,
+            technologies: [{
+                tech: "Frontend",
+                color: "#ee6c24"
+            },
+            {
+                tech: "CSS",
+                color: "#03a952"
+            },
+            {
+                tech: "React",
+                color: "#3998b6"
+            },
+            {
+                tech: "Vite",
+                color: "#ac48fe"
+            }],
+            links: [
+                {
+                    href: "https://enzodp9.github.io/ecommerce/",
+                    icon: "fa-solid fa-laptop",
+                    text: language === 'ENG' ? "View Live Project" : "Ver Demo",
+                },
+                {
+                    href: "https://github.com/enzodp9/ecommerce",
+                    icon: "fa-brands fa-github",
+                    text: language === 'ENG' ? "View Code" : "Ver Código",
+                }
+            ]
+        },
+        {
+            name: "Football API",
+            image: "assets/football-preview.png",
+            description: language === 'ENG' ? `This ASP.NET API functions as the backend for a football-related application, managing essential aspects of football-related data.
+                It handles entities such as countries, leagues, teams, players, and matches.`:
+                `Esta API de ASP.NET funciona como el backend para una aplicación relacionada con el fútbol, gestionando aspectos esenciales de los datos relacionados con el fútbol. Maneja entidades como países, ligas, equipos, jugadores y partidos.`,
+            technologies: [{
+                tech: "Backend",
+                color: "#2d3e50"
+            },
+            {
+                tech: ".NET",
+                color: "#03a952"
+            },
+            {
+                tech: "EF Core",
+                color: "#94d5f5"
+            },
+            {
+                tech: "PostgreSQL",
+                color: "#316192"
+            }],
+            links: [
+                {
+                    href: "https://github.com/enzodp9/Football-API",
+                    icon: "fa-brands fa-github",
+                    text: language === 'ENG' ? "View Code" : "Ver Código",
                 }
             ]
         },

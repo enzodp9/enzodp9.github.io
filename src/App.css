@@ -252,6 +252,9 @@ body {
 }
 
 .projects-item {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     background-color: var(--white-color);
     color: var(--gray-color);
     padding: 20px;
@@ -284,6 +287,7 @@ body {
     gap: 10px;
     margin-top: 10px;
     justify-content: center;
+    text-align: center;
 }
 
     .projects-links a {
