@@ -1,8 +1,4 @@
-# React + Vite
+# ecommerce
+This project is an Frontend eCommerce website called AluraGeek, developed as part of the Oracle ONE course. The site allows users to see the products and add them to the cart.
+The project was developed with React and Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
